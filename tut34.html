@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .card{
+        padding: 23px 12px;
+        margin: 23px 12px;
+        /* border: 2px solid red; */
+        background-color: cyan;
+        /* for down shadow */
+        /* box-shadow: 10px 13px green; */
+        /* for uper shadow */
+        /* box-shadow: -10px -13px green; */
+        /* it will split the color or give light color */
+        /* box-shadow: 7px 5px 10px green; */
+        /* for outside shhadow */
+        /* box-shadow: -7px -5px 10px 34px green; */
+        /* for inside shadow */
+        box-shadow: inset 3px 5px blueviolet;
+        /* for whole box shadow  */
+        box-shadow: 3px 5px pink, 4px 6px red;
+    }
+    .card{
+        /* text-shadow: 3px 4px red; */
+        /* for down shadow */
+        /* text-shadow: 3px 4px 1px pink; */
+        /* fow upper shadow */
+        text-shadow: -3px -4px 1px pink;
+    }
+    h2{
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="car-1">
+            <h2>this is html course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ullam, distinctio quaerat ipsam quam architecto minus! Mollitia exercitationem voluptates atque, quisquam consequatur facilis, magnam minima in, officia dolores maiores nostrum!</p>
+        </div>
+        <div class="card" id="car-2">
+            <h2>this is c++ couse</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, neque recusandae mollitia ab aperiam deserunt adipisci quaerat quisquam quod debitis nisi incidunt sunt rem amet officiis natus optio praesentium ad repellat, officia repudiandae ipsum!</p>
+        </div>
+        <div class="card" id="car-3">
+            <h2>this is c course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos incidunt quas ipsum deleniti labore. Voluptate quaerat nostrum aperiam similique nesciunt, ipsa harum, cumque cum numquam error veritatis nobis provident ex!</p>
+        </div>
+    </div>
+</body>
+</html>

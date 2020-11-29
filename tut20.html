@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: lightblue;
+        }
+        .cointainer{
+            background-color: coral;
+            border: 3px solid rgb(223, 24, 223);
+            /* we can set margine/padding for top,bottom,left,right like this */
+            /* padding-top : 30px;
+            padding-bottom : 30px;
+            padding-right : 34px;
+            padding-left : 34px; */
+            /*padding: 23px 56px 76px; padding/ margine-top right bottom left; */
+            padding:34px 19px;/*x(top/bottom) y(left/right); */
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="cointainer">
+        <h3>this is my heading</h3>
+        <p id="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora perspiciatis recusandae quisquam possimus ab delectus, ipsam excepturi quas. Optio soluta odit impedit aliquam provident doloremque consectetur quidem voluptatum iste velit!</p>
+    </div>
+    <div class="cointainer">
+        <h3>this is my heading</h3>
+        <p id="second">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora perspiciatis recusandae quisquam possimus ab delectus, ipsam excepturi quas. Optio soluta odit impedit aliquam provident doloremque consectetur quidem voluptatum iste velit!</p>
+    </div>
+    <div class="cointainer">
+        <h3>this is my heading</h3>
+        <p id="third">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora perspiciatis recusandae quisquam possimus ab delectus, ipsam excepturi quas. Optio soluta odit impedit aliquam provident doloremque consectetur quidem voluptatum iste velit!</p>
+    </div>
+</body>
+</html>
